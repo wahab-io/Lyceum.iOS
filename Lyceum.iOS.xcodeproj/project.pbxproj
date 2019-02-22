@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B50610A1D8B33A600E007A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5061091D8B33A600E007A3 /* AppDelegate.swift */; };
+		1B50610C1D8B33A600E007A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50610B1D8B33A600E007A3 /* ViewController.swift */; };
+		1B50610F1D8B33A600E007A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B50610D1D8B33A600E007A3 /* Main.storyboard */; };
+		1B5061111D8B33A600E007A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5061101D8B33A600E007A3 /* Assets.xcassets */; };
+		1B5061141D8B33A600E007A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5061121D8B33A600E007A3 /* LaunchScreen.storyboard */; };
+		1B50611F1D8B33A600E007A3 /* Lyceum_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50611E1D8B33A600E007A3 /* Lyceum_iOSTests.swift */; };
+		1B50612A1D8B33A600E007A3 /* Lyceum_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5061291D8B33A600E007A3 /* Lyceum_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B50611B1D8B33A600E007A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5060FE1D8B33A500E007A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5061051D8B33A500E007A3;
+			remoteInfo = Lyceum.iOS;
+		};
+		1B5061261D8B33A600E007A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5060FE1D8B33A500E007A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5061051D8B33A500E007A3;
+			remoteInfo = Lyceum.iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5061061D8B33A600E007A3 /* Lyceum.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyceum.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5061091D8B33A600E007A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B50610B1D8B33A600E007A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B50610E1D8B33A600E007A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B5061101D8B33A600E007A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5061131D8B33A600E007A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B5061151D8B33A600E007A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B50611A1D8B33A600E007A3 /* Lyceum.iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lyceum.iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B50611E1D8B33A600E007A3 /* Lyceum_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyceum_iOSTests.swift; sourceTree = "<group>"; };
+		1B5061201D8B33A600E007A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5061251D8B33A600E007A3 /* Lyceum.iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lyceum.iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5061291D8B33A600E007A3 /* Lyceum_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyceum_iOSUITests.swift; sourceTree = "<group>"; };
+		1B50612B1D8B33A600E007A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5061031D8B33A500E007A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5061171D8B33A600E007A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5061221D8B33A600E007A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5060FD1D8B33A500E007A3 = {
+			isa = PBXGroup;
+			children = (
+				1B5061081D8B33A600E007A3 /* Lyceum.iOS */,
+				1B50611D1D8B33A600E007A3 /* Lyceum.iOSTests */,
+				1B5061281D8B33A600E007A3 /* Lyceum.iOSUITests */,
+				1B5061071D8B33A600E007A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5061071D8B33A600E007A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5061061D8B33A600E007A3 /* Lyceum.iOS.app */,
+				1B50611A1D8B33A600E007A3 /* Lyceum.iOSTests.xctest */,
+				1B5061251D8B33A600E007A3 /* Lyceum.iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5061081D8B33A600E007A3 /* Lyceum.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B5061091D8B33A600E007A3 /* AppDelegate.swift */,
+				1B50610B1D8B33A600E007A3 /* ViewController.swift */,
+				1B50610D1D8B33A600E007A3 /* Main.storyboard */,
+				1B5061101D8B33A600E007A3 /* Assets.xcassets */,
+				1B5061121D8B33A600E007A3 /* LaunchScreen.storyboard */,
+				1B5061151D8B33A600E007A3 /* Info.plist */,
+			);
+			path = Lyceum.iOS;
+			sourceTree = "<group>";
+		};
+		1B50611D1D8B33A600E007A3 /* Lyceum.iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B50611E1D8B33A600E007A3 /* Lyceum_iOSTests.swift */,
+				1B5061201D8B33A600E007A3 /* Info.plist */,
+			);
+			path = Lyceum.iOSTests;
+			sourceTree = "<group>";
+		};
+		1B5061281D8B33A600E007A3 /* Lyceum.iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5061291D8B33A600E007A3 /* Lyceum_iOSUITests.swift */,
+				1B50612B1D8B33A600E007A3 /* Info.plist */,
+			);
+			path = Lyceum.iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5061051D8B33A500E007A3 /* Lyceum.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B50612E1D8B33A600E007A3 /* Build configuration list for PBXNativeTarget "Lyceum.iOS" */;
+			buildPhases = (
+				1B5061021D8B33A500E007A3 /* Sources */,
+				1B5061031D8B33A500E007A3 /* Frameworks */,
+				1B5061041D8B33A500E007A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyceum.iOS;
+			productName = Lyceum.iOS;
+			productReference = 1B5061061D8B33A600E007A3 /* Lyceum.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B5061191D8B33A600E007A3 /* Lyceum.iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5061311D8B33A600E007A3 /* Build configuration list for PBXNativeTarget "Lyceum.iOSTests" */;
+			buildPhases = (
+				1B5061161D8B33A600E007A3 /* Sources */,
+				1B5061171D8B33A600E007A3 /* Frameworks */,
+				1B5061181D8B33A600E007A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B50611C1D8B33A600E007A3 /* PBXTargetDependency */,
+			);
+			name = Lyceum.iOSTests;
+			productName = Lyceum.iOSTests;
+			productReference = 1B50611A1D8B33A600E007A3 /* Lyceum.iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B5061241D8B33A600E007A3 /* Lyceum.iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5061341D8B33A600E007A3 /* Build configuration list for PBXNativeTarget "Lyceum.iOSUITests" */;
+			buildPhases = (
+				1B5061211D8B33A600E007A3 /* Sources */,
+				1B5061221D8B33A600E007A3 /* Frameworks */,
+				1B5061231D8B33A600E007A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5061271D8B33A600E007A3 /* PBXTargetDependency */,
+			);
+			name = Lyceum.iOSUITests;
+			productName = Lyceum.iOSUITests;
+			productReference = 1B5061251D8B33A600E007A3 /* Lyceum.iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5060FE1D8B33A500E007A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Wahab Syed";
+				TargetAttributes = {
+					1B5061051D8B33A500E007A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1B5061191D8B33A600E007A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B5061051D8B33A500E007A3;
+					};
+					1B5061241D8B33A600E007A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B5061051D8B33A500E007A3;
+					};
+				};
+			};
+			buildConfigurationList = 1B5061011D8B33A500E007A3 /* Build configuration list for PBXProject "Lyceum.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B5060FD1D8B33A500E007A3;
+			productRefGroup = 1B5061071D8B33A600E007A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5061051D8B33A500E007A3 /* Lyceum.iOS */,
+				1B5061191D8B33A600E007A3 /* Lyceum.iOSTests */,
+				1B5061241D8B33A600E007A3 /* Lyceum.iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5061041D8B33A500E007A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5061141D8B33A600E007A3 /* LaunchScreen.storyboard in Resources */,
+				1B5061111D8B33A600E007A3 /* Assets.xcassets in Resources */,
+				1B50610F1D8B33A600E007A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5061181D8B33A600E007A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5061231D8B33A600E007A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5061021D8B33A500E007A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B50610C1D8B33A600E007A3 /* ViewController.swift in Sources */,
+				1B50610A1D8B33A600E007A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5061161D8B33A600E007A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B50611F1D8B33A600E007A3 /* Lyceum_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5061211D8B33A600E007A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B50612A1D8B33A600E007A3 /* Lyceum_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B50611C1D8B33A600E007A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5061051D8B33A500E007A3 /* Lyceum.iOS */;
+			targetProxy = 1B50611B1D8B33A600E007A3 /* PBXContainerItemProxy */;
+		};
+		1B5061271D8B33A600E007A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5061051D8B33A500E007A3 /* Lyceum.iOS */;
+			targetProxy = 1B5061261D8B33A600E007A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B50610D1D8B33A600E007A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B50610E1D8B33A600E007A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B5061121D8B33A600E007A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5061131D8B33A600E007A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B50612C1D8B33A600E007A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B50612D1D8B33A600E007A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B50612F1D8B33A600E007A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyceum.iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syntaxfish.Lyceum-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B5061301D8B33A600E007A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyceum.iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syntaxfish.Lyceum-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B5061321D8B33A600E007A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lyceum.iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syntaxfish.Lyceum-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyceum.iOS.app/Lyceum.iOS";
+			};
+			name = Debug;
+		};
+		1B5061331D8B33A600E007A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lyceum.iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syntaxfish.Lyceum-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyceum.iOS.app/Lyceum.iOS";
+			};
+			name = Release;
+		};
+		1B5061351D8B33A600E007A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Lyceum.iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syntaxfish.Lyceum-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lyceum.iOS;
+			};
+			name = Debug;
+		};
+		1B5061361D8B33A600E007A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Lyceum.iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syntaxfish.Lyceum-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lyceum.iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5061011D8B33A500E007A3 /* Build configuration list for PBXProject "Lyceum.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B50612C1D8B33A600E007A3 /* Debug */,
+				1B50612D1D8B33A600E007A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B50612E1D8B33A600E007A3 /* Build configuration list for PBXNativeTarget "Lyceum.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B50612F1D8B33A600E007A3 /* Debug */,
+				1B5061301D8B33A600E007A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B5061311D8B33A600E007A3 /* Build configuration list for PBXNativeTarget "Lyceum.iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5061321D8B33A600E007A3 /* Debug */,
+				1B5061331D8B33A600E007A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B5061341D8B33A600E007A3 /* Build configuration list for PBXNativeTarget "Lyceum.iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5061351D8B33A600E007A3 /* Debug */,
+				1B5061361D8B33A600E007A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5060FE1D8B33A500E007A3 /* Project object */;
+}
